@@ -46,7 +46,6 @@ if (isset($_POST['update_alamat'])) {
     <h4 class="mb-3">Edit Data Alamat</h4>
     
     <form method="POST" action="">
-        <!-- Input hidden untuk menyimpan ID agar bisa diproses saat update -->
         <input type="hidden" name="id" value="<?php echo $data['id']; ?>">
         
         <div class="mb-3">
